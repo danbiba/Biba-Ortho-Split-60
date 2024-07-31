@@ -1,7 +1,6 @@
 # handwired/biba60
 
 ![handwired/biba60](https://imgur.com/a/dkdIPVk)
-![alt text](http://url/to/img.png)
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
