@@ -29,15 +29,7 @@ Enter the bootloader in 3 ways:
 
 Bill of Materials
     Diodes (x60): https://www.amazon.com/dp/B079KJ91JZ/?coliid=IU9YRLAUD8BYV&colid=GI9LV354TQGI&psc=1&ref_
-
-    
     Pro Mico Boards (x2): https://www.amazon.com/dp/B0B6HYLC44/?coliid=I2J23DRCUG601T&colid=GI9LV354TQGI&psc=1&ref_
-
-    
     LED Light Strips: https://www.amazon.com/dp/B01CDTED80/?coliid=I2PFQBWAX38YSN&colid=GI9LV354TQGI&psc=1&ref_
-
-    
     Switches (Epomake Wisteria Tactiles x60): https://www.amazon.com/dp/B0BZYG13Q5/?coliid=I11VNZPVFJJRM6&colid=GI9LV354TQGI&psc=1&ref_
-
-    
     2.5mm TRS cable (1x): https://www.amazon.com/dp/B09XXFYGXP?psc=1&ref=ppx_yo2ov_dt_b_product_details
