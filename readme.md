@@ -1,7 +1,7 @@
 # handwired/biba60
 
-![handwired/biba60] https://imgur.com/a/dkdIPVk
-
+![handwired/biba60](https://imgur.com/a/dkdIPVk)
+![alt text](http://url/to/img.png)
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
@@ -33,3 +33,4 @@ Bill of Materials
     LED Light Strips: https://www.amazon.com/dp/B01CDTED80/?coliid=I2PFQBWAX38YSN&colid=GI9LV354TQGI&psc=1&ref_
     Switches (Epomake Wisteria Tactiles x60): https://www.amazon.com/dp/B0BZYG13Q5/?coliid=I11VNZPVFJJRM6&colid=GI9LV354TQGI&psc=1&ref_
     2.5mm TRS cable (1x): https://www.amazon.com/dp/B09XXFYGXP?psc=1&ref=ppx_yo2ov_dt_b_product_details
+    Magnets 2x6mm (x16): https://www.amazon.com/dp/B0CCXGGTLC?psc=1&ref=ppx_yo2ov_dt_b_product_details
