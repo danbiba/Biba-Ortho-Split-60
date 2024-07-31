@@ -1,12 +1,11 @@
 # handwired/biba60
 
-![handwired/biba60](https://imgur.com/a/dkdIPVk)
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/dkdIPVk"  ><a href="//imgur.com/a/dkdIPVk">Biba Ortho Split 60%</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-*A short description of the keyboard/project*
+A 60% Ortholiner keyboard that can be used in a traditional form factor or split.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: Arduino Pro Micro
+* Hardware Availability: 3D Printable
 
 Make example for this keyboard (after setting up your build environment):
 
