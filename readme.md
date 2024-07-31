@@ -1,6 +1,6 @@
 # handwired/biba60
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/dkdIPVk"  ><a href="//imgur.com/a/dkdIPVk">Biba Ortho Split 60%</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/dkdIPVk"  ><a href="//imgur.com/a/dkdIPVk">Biba Ortho Split 60%</a></blockquote>
 A 60% Ortholiner keyboard that can be used in a traditional form factor or split.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
