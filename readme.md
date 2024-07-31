@@ -1,6 +1,6 @@
 # handwired/biba60
 
-![handwired/biba60](https://imgur.com/a/dkdIPVk)
+![handwired/biba60] https://imgur.com/a/dkdIPVk
 
 *A short description of the keyboard/project*
 
