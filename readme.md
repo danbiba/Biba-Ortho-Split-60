@@ -1,6 +1,7 @@
 # handwired/biba60
 
 ![handwired/biba60](https://imgur.com/a/dkdIPVk)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/dkdIPVk"  ><a href="//imgur.com/a/dkdIPVk">Biba Ortho Split 60%</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
