@@ -87,12 +87,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______
     ),
     [_INKSCAPE] = LAYOUT_ortho_6x10(
-        KC_ESC, KC_D, KC_S, ALIGN_HOR_CENTER, ALIGN_VER_CENTER, _______,
-       C(KC_C),    C(KC_V),    S(KC_5), EVEN_HOR_CENTER, EVEN_VER_CENTER, _______, 
-        KC_DEL,    UNION_MACRO , DIFFERENCE_MACRO,  GROUP_MACRO,   UNGROUP_MACRO, _______, 
-        C(KC_Z),    KC_HOME,    KC_PGUP,  KC_NO,   KC_ENT,  _______,
-        TO(_QWERTY),    KC_END,    KC_PGDN,  KC_LSFT,   KC_LCTL,  _______,
-
+        KC_ESC, KC_HOME, KC_PGUP, ALIGN_HOR_CENTER, ALIGN_VER_CENTER, TO(_QWERTY),
+        S(KC_5), KC_END, KC_PGDN, EVEN_HOR_CENTER, EVEN_VER_CENTER, _______, 
+        KC_DEL, _______, KC_S, KC_D, KC_ENT, _______, 
+        KC_LSFT, C(KC_Z), C(KC_Y), C(KC_C), C(KC_V),  _______,
+        KC_LCTL, UNION_MACRO, DIFFERENCE_MACRO, GROUP_MACRO, UNGROUP_MACRO,  _______,
+        
         _______, _______, _______, _______, _______, _______, 
         _______, _______, _______, _______, _______, _______, 
         _______, _______, _______, _______, _______, _______, 
@@ -203,25 +203,24 @@ void keyboard_post_init_user(void) {
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
         case _QWERTY:
+            rgblight_sethsv_noeeprom(HSV_SPRINGGREEN);
             rgblight_mode(RGBLIGHT_MODE_KNIGHT); // Set the RGB mode to knight
             break;
         case _RAISE:
             rgblight_mode(RGBLIGHT_MODE_RAINBOW_MOOD);
             break;
         case _LOWER:
-            rgblight_sethsv_noeeprom(HSV_GREEN);
-            rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
+            rgblight_sethsv_noeeprom(HSV_YELLOW);
+            rgblight_mode(RGBLIGHT_MODE_SNAKE);
             break;
         case _ADJUST:
             rgblight_mode(RGBLIGHT_MODE_RAINBOW_SWIRL);
             break;
         case _FUNCTION:
-            rgblight_sethsv_noeeprom(HSV_BLUE);
-            rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
+            rgblight_mode(RGBLIGHT_MODE_FAST_SPIN);
             break;
         case _INKSCAPE:
-            rgblight_sethsv_noeeprom(HSV_PURPLE);
-            rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
+            rgblight_mode(RGBLIGHT_MODE_SLOW_SPIN);
             break;
         default: // for any other layers, turn off the RGB lighting
             rgblight_sethsv_noeeprom(HSV_OFF);
