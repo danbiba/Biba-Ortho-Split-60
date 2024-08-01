@@ -1,19 +1,18 @@
 # handwired/biba60
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/dkdIPVk"  ><a href="//imgur.com/a/dkdIPVk">Biba Ortho Split 60%</a></blockquote>
+![](https://i.imgur.com/y4LSuKU.jpeg)
 A 60% Ortholiner keyboard that can be used in a traditional form factor or split.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
 * Hardware Supported: Arduino Pro Micro
 * Hardware Availability: 3D Printable
 
+SETUP:
+Place the code posted here in your qmk_firmare/keyboards/handwired/biba60 folder
+
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/biba60:default
-
-Flashing example for this keyboard:
-
-    make handwired/biba60:default:flash
+    qmk compile -kb handwired/biba60 -km default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
@@ -21,10 +20,9 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
-
+* Lower + 0,0 (if only one board is plugged in it defaults to the LEFT)
+* Adjust + 0,0
+* Short out pins RST and GND on the Pro Micro
 
 Bill of Materials:
 Diodes (x60): https://www.amazon.com/dp/B079KJ91JZ/?coliid=IU9YRLAUD8BYV&colid=GI9LV354TQGI&psc=1&ref_
