@@ -8,7 +8,7 @@ A 60% Ortholiner keyboard that can be used in a traditional form factor or split
 * Hardware Availability: 3D Printable
 
 ## Setup
-Place the code posted here in your qmk_firmare/keyboards/handwired/biba60 folder
+Place the code posted here in your qmk_firmware/keyboards/handwired/biba60 folder
 
 Make example for this keyboard (after setting up your build environment):
 
