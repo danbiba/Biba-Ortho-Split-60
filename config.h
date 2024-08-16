@@ -11,6 +11,7 @@
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_LIMIT_VAL 255
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
 // Enable all RGB modes
 #define RGBLIGHT_EFFECT_STATIC
@@ -23,8 +24,8 @@
 #define RGBLIGHT_EFFECT_GRADIENT
 #define RGBLIGHT_EFFECT_TWINKLE
 #define RGBLIGHT_EFFECT_CHRISTMAS
-#define RGBLIGHT_EFFECT_FAST_SPIN
-#define RGBLIGHT_EFFECT_SLOW_SPIN
+#define RGBLIGHT_MODE_FAST_SPIN 35  // Example definition, ensure this matches your intended value
+#define RGBLIGHT_MODE_SLOW_SPIN 25
 #define RGBLIGHT_EFFECT_HUE_CYCLE
 #define RGBLIGHT_EFFECT_ALTERNATING
 
@@ -33,3 +34,7 @@
 
 // Define the LED positions in a continuous order
 #define RGBLIGHT_LED_MAP { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 }
+
+//Define mouse key mode
+#define MK_KINETIC_SPEED
+#define MOUSEKEY_INITIAL_SPEED 300
