@@ -2,11 +2,18 @@
 
 ![](https://i.imgur.com/y4LSuKU.jpeg)
 ![](https://i.imgur.com/w4r3J1u.jpeg)
+
 A 60% Ortholiner keyboard that can be used in a traditional form factor or split.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
 * Hardware Supported: Arduino Pro Micro
 * Hardware Availability: 3D Printable
+
+## Keymap
+
+Default Layer
+
+![](images/biba-ortho-split-60-(default-layer).jpg)
 
 ## Setup
 Place the code posted here in your qmk_firmware/keyboards/handwired/biba60 folder
