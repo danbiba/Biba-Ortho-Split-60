@@ -18,7 +18,7 @@ Default Layer
 
 Lower Layer
 
-![](images/biba-ortho-split-60-(lower-layer).jpg)
+![](images/biba-ortho-split-60-(lower-layer1).jpg)
 
 
 Raise Layer
