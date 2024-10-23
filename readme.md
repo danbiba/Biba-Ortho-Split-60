@@ -15,6 +15,17 @@ Default Layer
 
 ![](images/biba-ortho-split-60-(default-layer).jpg)
 
+
+Lower Layer
+
+![](images/biba-ortho-split-60-(lower-layer).jpg)
+
+
+Raise Layer
+
+![](images/biba-ortho-split-60-(raise-layer).jpg)
+
+
 ## Setup
 Place the code posted here in your qmk_firmware/keyboards/handwired/biba60 folder
 
