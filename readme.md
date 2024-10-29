@@ -26,6 +26,21 @@ Raise Layer
 ![](images/biba-ortho-split-60-(raise-layer).jpg)
 
 
+Adjust Layer
+
+![](images/biba-ortho-split-60-(adjust-layer).jpg)
+
+
+Function Layer
+
+![](images/biba-ortho-split-60-(function-layer).jpg)
+
+
+Inkscape Layer
+
+![](images/biba-ortho-split-60-(inkscape-layer).jpg)
+
+
 ## Setup
 Place the code posted here in your qmk_firmware/keyboards/handwired/biba60 folder
 
